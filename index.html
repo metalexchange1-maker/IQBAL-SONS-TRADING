@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQBAL SONS TRADING - 24/7 Medical Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="#home" class="logo-link">
+                        <h1>IQBAL SONS TRADING</h1>
+                        <span>Medical Store</span>
+                    </a>
+                </div>
+                
+                <div class="nav-links">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <button class="order-btn" id="orderBtn">Order Now</button>
+                </div>
+
+                <div class="theme-toggle">
+                    <button id="themeToggle" class="theme-btn">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-meds">
+                <div class="med-icon" style="--delay: 0s;"><i class="fas fa-pills"></i></div>
+                <div class="med-icon" style="--delay: 1s;"><i class="fas fa-prescription-bottle"></i></div>
+                <div class="med-icon" style="--delay: 2s;"><i class="fas fa-syringe"></i></div>
+                <div class="med-icon" style="--delay: 3s;"><i class="fas fa-heartbeat"></i></div>
+                <div class="med-icon" style="--delay: 4s;"><i class="fas fa-capsules"></i></div>
+            </div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>24/7 Available</span>
+                </div>
+                <h1 class="hero-title">
+                    Your Trusted
+                    <span class="highlight">Medical Partner</span>
+                </h1>
+                <p class="hero-description">
+                    Providing quality medicines and healthcare products with 24/7 service. 
+                    Your health is our priority with reliable medical solutions.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn primary" id="heroOrderBtn">
+                        Order Medicines
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn secondary">
+                        Call Now
+                        <i class="fas fa-phone"></i>
+                    </button>
+                </div>
+                <div class="hero-info">
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>24 Hours Open</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>0321-3444421</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-truck"></i>
+                        <span>Free Delivery</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="medicine-showcase">
+                    <div class="med-card" style="--i:1">
+                        <img src="https://images.unsplash.com/photo-1585435557343-3b092031d5ad?w=300" alt="Medicine">
+                        <div class="med-overlay">
+                            <h4>Prescription Drugs</h4>
+                        </div>
+                    </div>
+                    <div class="med-card" style="--i:2">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=300" alt="Medicine">
+                        <div class="med-overlay">
+                            <h4>OTC Medicines</h4>
+                        </div>
+                    </div>
+                    <div class="med-card" style="--i:3">
+                        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=300" alt="Medicine">
+                        <div class="med-overlay">
+                            <h4>Healthcare Products</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About IQBAL SONS TRADING</h2>
+                <p>Your trusted medical store since 1985</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Quality Healthcare Solutions</h3>
+                    <p>With over 35 years of experience in pharmaceutical distribution, IQBAL SONS TRADING has been serving the community with genuine medicines and healthcare products.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Authentic Medicines</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>24/7 Availability</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-truck"></i>
+                            <span>Fast Delivery</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-user-md"></i>
+                            <span>Expert Guidance</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=500" alt="Pharmacy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive healthcare solutions</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-prescription"></i>
+                    </div>
+                    <h3>Prescription Medicine</h3>
+                    <p>Complete range of prescription drugs with proper guidance</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>OTC Products</h3>
+                    <p>Wide variety of over-the-counter medicines and health supplements</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Home Delivery</h3>
+                    <p>Free and fast home delivery service across the city</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Medical Consultation</h3>
+                    <p>Professional advice for your healthcare needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us 24/7</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>0321-3444421</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Open Hours</h4>
+                            <p>24 Hours, 7 Days a Week</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Main Market, City Center</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="tel" placeholder="Your Phone" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>IQBAL SONS TRADING</h3>
+                    <p>Your trusted medical store providing quality healthcare solutions 24/7.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> 0321-3444421</p>
+                    <p><i class="fas fa-clock"></i> 24/7 Open</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 IQBAL SONS TRADING. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Medicine Order Modal -->
+    <div id="medicineModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Available Medicines & Prices</h2>
+                <button class="close-modal" id="closeModal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="search-box">
+                    <input type="text" id="medicineSearch" placeholder="Search medicines...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="medicines-grid" id="medicinesGrid">
+                    <!-- Medicines will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
